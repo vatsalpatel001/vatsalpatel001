@@ -1,61 +1,582 @@
-<html style="
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-"><head>
-	<meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-	<title>Vatsal Patel</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="Vatsal Patel is Web Developer." name="description">
+    <meta content="vatsal32,Vatsal Patel" name="keywords">
+    <meta content="Vatsal Patel" name="author">
+<!--     <meta content="width=device-width, initial-scale=1" name="viewport"> -->
+
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <!--Template name-->
+    <title>Vatsal - Personal Portfolio</title><!--Favicon-->
+    <!--Font Awesome css-->
+    <link href="./css/font-awesome.min.css" rel="stylesheet"><!--Bootstrap css-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet"><!--Animated headline css-->
+    <link href="./css/jquery.animatedheadline.css" rel="stylesheet"><!--Owl carousel css-->
+    <link href="./css/owl.carousel.css" rel="stylesheet">
+    <link href="./css/owl.theme.default.css" rel="stylesheet"><!--Magnific popup css-->
+    <link href="./css/magnific-popup.css" rel="stylesheet"><!--line icon css-->
+    <link href="./css/line-icons.min.css" rel="stylesheet"><!--Theme css-->
+    <link href="./css/style.css" rel="stylesheet"><!--Responsive css-->
+    <link href="./css/responsive.css" rel="stylesheet">
 </head>
-<body style="
-    /* position: absolute; */
-    border: 5px solid red;
-    padding: 10px;
-    left: 0vw;
-    top: 0vh;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    box-sizing: border-box;
-">
-	<!-- <h1>Hello I am Vatsal Patel</h1> -->
-	<div style="
-    background: #292a2c;
-    text-align: center;
-    padding: 10px;
-    font-size: 25px;
-">
-		<p style="
-    color: #ffeb3b;
-">Design Your Career By Writing</p>
-		<p style="
-    color: white;
-">Vatsal's Career Goals</p>
+<body>
+    <!--Preloader starts-->
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div><!--Preloader ends-->
+    <!--Navigation area starts-->
+    <header class="nav-area navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <!--main menu starts-->
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="navbar navbar-cus">
+                            <div class="navbar-header">
+                                <!--  <a href="index.html" class="navbar-brand">Vatsal</a> --><!--change logo name-->
+                                 <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <nav>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active">
+                                            <a class="smooth-menu" href="#home">Home</a>
+                                        </li>
+                                        <li>
+                                            <a class="smooth-menu" href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a class="smooth-menu" href="#services">Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="smooth-menu" href="#portfolio">Portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a class="smooth-menu" href="#resume">Experience</a>
+                                        </li>
+                                        <li>
+                                            <a class="smooth-menu" href="#testimonial">Testimonial</a>
+                                        </li>
+                                        <li>
+                                            <a class="smooth-menu" href="#contact">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--main menu ends-->
+            </div>
+        </div>
+    </header><!--Navigation area ends-->
+    <!--Banner area starts-->
+    <div class="banner-area" id="home">
+        <div id="particles-js"></div>
+        <div class="banner-table">
+            <div class="banner-table-cell">
+                <div class="welcome-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <section class="intro animate-scale">
+                                    <div class="img-area">
+                                        <img alt="" src="./images/VatsalPatel.jpg"> <!--edit image-->
+                                    </div>
+                                    <h3>I'm Vatsal</h3>
+                                    <h1 class="ah-headline"><span class="ah-words-wrapper"><b class="is-visible">Web Developer</b><!--edit the designation if you are in different profession-->
+                                     <b>Mechanical CAD Designer</b> <!--edit the designation if you are in different profession-->
+                                     <!-- <b>Graphics Designer</b>  -->
+                                     <!--edit the designation if you are in different profession--></span></h1>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fa fa-github"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </section>
+                                <div class="clearfix"></div><a class="mouse-scroll hidden-xs dadada" href="#about"><span class="mouse"><span class="mouse-movement"></span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--Banner area ends-->
+    <!--About area starts-->
+        
+    
 
-	</div>
-<div class="GoalsBg">
-	<a >
-		<i class="fas fa-code"></i>
-		<span>Web Devloper</span>
-	</a>
-	<div>
-		<a href="">
-			<span>HTML</span>
-			<progress value="" max="">
-		</a>
+    <div class="about-area section-padding" id="about">
+        
+    <div class="portfolio-content">
+            
+            <div class="container">
+                <div class="row port-items" id="img-filter" style="position: relative; height: 570px;">
+                    <div class="col-md-4  col-xs-4 single-port design photography" style="position: absolute; left: 0px; top: 0px;">
+                        <div class="project-item">
+                            <a class="zoom1" href="./images/about1.jpg"><!--edit image-->
+                             <img alt="portfolio image" src="./images/about1.jpg"> <!--edit image-->
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4>Project One</h4>
+                                    <p>Brand, Design</p>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-4 single-port design" style="position: absolute; left: 380px; top: 0px;">
+                        <div class="project-item">
+                            <a class="zoom1" href="./images/about2.jpg"><!--edit image-->
+                             <img alt="portfolio image" src="./images/about2.jpg"> <!--edit image-->
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4>Project Two</h4>
+                                    <p>Brand, Design</p>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-4 single-port photography" style="position: absolute; left: 760px; top: 0px;">
+                        <div class="project-item">
+                            <a class="zoom1" href="./images/about3.jpg">
+                                <img alt="portfolio image" src="./images/about3.jpg"> <!--edit image-->
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4>Project Three</h4>
+                                    <p>Brand, Design</p>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
 
-	</div>
-</div>
-<!-- HTML
-CSS
-JavaScript
-Tools
-Debugging
-GIT (Code Versioning)
-Basic graphic design
-Back end and Databases
-Working with Hosting (Publishing web site)
-Libraries and frameworks -->
-<!-- https://www.codebrainer.com/blog/web-developer-skills-web-developer-basics-for-beginners -->
 
-</body></html>
+        <div class="container">
+
+            <div class="row">
+            
+                <div class="col-md-7 col-md-offset-1 col-sm-12">
+                    <div class="about-right">
+                        <h2>Front-End developer</h2>
+                        <p>I am <span>Vatsal Patel</span>. I am a simple, kind and enthusiastic person.I am always ready to change myself whenever I get a chance to upgrade myself.I keep myself busy learning new things.</p>
+                        <p>I have vast experience in HTML5, CSS3, Javascript, JQuery, Node js and php. I have already completed over 10 projects for my clients.</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="about-list">
+                                    <li><span class="title">Name</span> <span class="value">Vatsal Patel</span></li>
+                                    <li><span class="title">Age</span> <span class="value">24 Years</span></li>
+                                    <li><span class="title">Email</span> <span class="value">vatsalpatel001@gmail.com</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="about-list">
+                                    <li><span class="title">Phone</span> <span class="value">+91 9427576281</span></li>
+                                    <li><span class="title">Address</span> <span class="value">Valsad,Gujart,India</span></li>
+                                    <li><span class="title">Hobby</span> <span class="value">Cricket, Coding</span></li>
+                                </ul>
+                            </div>
+                        </div><a class="skill-btn btn-a" href="#skills-bd">my skills</a> <a class="down-btn btn-a" href="./images/about/demo-cv.png">download cv</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="skills-area section-padding" id="skills-bd">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Skills</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about-text-right">
+                        <div id="skills">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-12">
+                                        <!-- skillbar -->
+                                        <div class="skillbar" data-percent="95%">
+                                            <!--edit percentage-->
+                                            <h6 class="skillbar-title">HTML5</h6><!--edit skills-->
+                                            <h6 class="skillbar-percent">95%</h6><!--edit percentage-->
+                                            <div class="skillbar-bar">
+                                                <div class="skillbar-child"></div>
+                                            </div>
+                                        </div><!-- end skillbar -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <!-- skillbar -->
+                                        <div class="skillbar" data-percent="90%">
+                                            <!--edit percentage-->
+                                            <h6 class="skillbar-title">CSS3</h6><!--edit skills-->
+                                            <h6 class="skillbar-percent">90%</h6><!--edit percentage-->
+                                            <div class="skillbar-bar">
+                                                <div class="skillbar-child"></div>
+                                            </div>
+                                        </div><!-- end skillbar -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <!-- skillbar -->
+                                        <div class="skillbar" data-percent="90%">
+                                            <!--edit percentage-->
+                                            <h6 class="skillbar-title">Javascript </h6><!--edit skills-->
+                                            <h6 class="skillbar-percent">90%</h6><!--edit percentage-->
+                                            <div class="skillbar-bar">
+                                                <div class="skillbar-child"></div>
+                                            </div>
+                                        </div><!-- end skillbar -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="col-md-12">
+                                        <!-- skillbar -->
+                                        <div class="skillbar" data-percent="85%">
+                                            <!--edit percentage-->
+                                            <h6 class="skillbar-title">PHP</h6><!--edit skills-->
+                                            <h6 class="skillbar-percent">60%</h6><!--edit percentage-->
+                                            <div class="skillbar-bar">
+                                                <div class="skillbar-child"></div>
+                                            </div>
+                                        </div><!-- end skillbar -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <!-- skillbar -->
+                                        <div class="skillbar" data-percent="75%">
+                                            <!--edit percentage-->
+                                            <h6 class="skillbar-title">JQuery </h6><!--edit skills-->
+                                            <h6 class="skillbar-percent">55%</h6><!--edit percentage-->
+                                            <div class="skillbar-bar">
+                                                <div class="skillbar-child"></div>
+                                            </div>
+                                        </div><!-- end skillbar -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <!-- skillbar -->
+                                        <div class="skillbar" data-percent="75%">
+                                            <!--edit percentage-->
+                                            <h6 class="skillbar-title">Angular</h6><!--edit skills-->
+                                            <h6 class="skillbar-percent">50%</h6><!--edit percentage-->
+                                            <div class="skillbar-bar">
+                                                <div class="skillbar-child"></div>
+                                            </div>
+                                        </div><!-- end skillbar -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--About area ends-->
+    <!--Services area starts-->
+    <div class="services-area section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Services</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 service">
+                    <div class="service-box">
+                        <span class="after"></span> <span class="before"></span>
+                        <div class="service-icon">
+                            <i class="icon-compass"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id laboriosam maxime nam neque nulla placeat quam repudiandae similique ullam?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 service">
+                    <div class="service-box">
+                        <span class="after"></span> <span class="before"></span>
+                        <div class="service-icon">
+                            <i class="icon-aperture"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Web Development</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id laboriosam maxime nam neque nulla placeat quam repudiandae similique ullam?</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+               
+            </div>
+        </div>
+    </div><!--Services area ends-->
+    <!--Skills area starts-->
+   
+
+
+
+
+    <!--Skills area ends-->
+    <!--Portfolio area starts-->
+
+
+
+
+    <!--Portfolio area ends-->
+    <!--Statistic area starts-->
+    
+
+    <!-- Statistic area ends -->
+    <!--Experience area starts-->
+    <div class="experience-area section-padding" id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Experience</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="resumes">
+                        <li class="resume-item expr">
+                            <h3>Full-Stack Developer</h3>
+                            <h4>Company Four</h4>
+                            <h5>2018 - Present</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis dicta ipsum magni maxime, mollitia quae quaerat veritatis voluptate voluptatem! Accusantium dicta illum impedit quam.</p>
+                        </li>
+                        <li class="resume-item expr">
+                            <h3>Back-End Developer</h3>
+                            <h4>Company Three</h4>
+                            <h5>2016 - 2017</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis dicta ipsum magni maxime, mollitia quae quaerat veritatis voluptate voluptatem! Accusantium dicta illum impedit quam.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="resumes">
+                        <li class="resume-item expr">
+                            <h3>Graphics Designer</h3>
+                            <h4>Company Two</h4>
+                            <h5>2016 - 2017</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis dicta ipsum magni maxime, mollitia quae quaerat veritatis voluptate voluptatem! Accusantium dicta illum impedit quam.</p>
+                        </li>
+                        <li class="resume-item expr">
+                            <h3>Front-End Developer</h3>
+                            <h4>Company One</h4>
+                            <h5>2015 - 2016</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis dicta ipsum magni maxime, mollitia quae quaerat veritatis voluptate voluptatem! Accusantium dicta illum impedit quam.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--Experience area ends-->
+    <!--Testimonial Area Starts-->
+    <div class="testimonial-area section-padding" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Client <span>Testimonials</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="single-testimonial">
+                            <div class="testi-comment">
+                                <i class="fa fa-quote-left"></i>
+                                <p>My Experience working with Robin has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 col-xs-8">
+                                    <h2>John Doe</h2><!--edit here-->
+                                    <h3>CEO, ABC Network</h3><!--edit here-->
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                    <div class="testi-img">
+                                        <img alt="testimonial image" src="./images/testimonial/testi1.jpg"> <!--edit image here-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial">
+                            <div class="testi-comment">
+                                <i class="fa fa-quote-left"></i>
+                                <p>My Experience working with Robin has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 col-xs-8">
+                                    <h2>Megan Doe</h2><!--edit here-->
+                                    <h3>Manager, OPPO</h3><!--edit here-->
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                    <div class="testi-img">
+                                        <img alt="testimonial image" src="./images/testimonial/testi2.jpg"> <!--edit image here-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial">
+                            <div class="testi-comment">
+                                <i class="fa fa-quote-left"></i>
+                                <p>My Experience working with Robin has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 col-xs-8">
+                                    <h2>Jack Frost</h2><!--edit here-->
+                                    <h3>CEO, XYZ Company</h3><!--edit here-->
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                    <div class="testi-img">
+                                        <img alt="testimonial image" src="./images/testimonial/testi3.jpg"> <!--edit here-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial">
+                            <div class="testi-comment">
+                                <i class="fa fa-quote-left"></i>
+                                <p>My Experience working with Robin has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 col-xs-8">
+                                    <h2>Emily Watson</h2><!--edit here-->
+                                    <h3>CEO, DAS Network</h3><!--edit here-->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="testi-img">
+                                        <img alt="" src="./images/testimonial/testi4.jpg"> <!--edit image here-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--Testimonial Area Ends-->
+    <!--Contact Area Starts-->
+    <div class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Contact</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-contact-form">
+                    <form action="contact.php" id="contact-form" method="post" name="contact-form" novalidate="true">
+                        <div class="messages"></div><!--you can change the message in contact.php file -->
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" data-error="Fullname is required." id="form_name" name="name" placeholder="Enter your full name *" required="required" type="text">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" data-error="Valid email is required." id="form_email" name="email" placeholder="Enter your email *" required="required" type="email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" data-error="Leave a message for me" id="form_message" name="message" placeholder="Your Message *" required="required" rows="4"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn btn-send" value="">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+                    <div class="right-contact">
+                        <div class="right-contact-text">
+                            <i class="fa fa-map-marker"></i>
+                            <h2>Address / Street</h2>
+                            <p>No 123, Westwood Lane, USA</p><!--edit here-->
+                        </div>
+                        <div class="right-contact-text">
+                            <i class="fa fa-phone"></i>
+                            <h2>Contact Number</h2>
+                            <p>+123 - 256 - 5456</p><!--edit here-->
+                        </div>
+                        <div class="right-contact-text">
+                            <i class="fa fa-globe"></i>
+                            <h2>Website Address</h2>
+                            <p>www.yourwebsite.com</p><!--edit here-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--Contact Area Ends-->
+    <!--Footer Area Starts-->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <p>&copy; All Right Reserved By</p><!--edit here-->
+                </div>
+            </div>
+        </div>
+    </div><!--Footer Area Ends-->
+    <!--Latest version JQuery-->
+    <script src="./js/jquery-3.2.1.min.js">
+    </script> <!--Bootstrap js-->
+    <script src="./js/bootstrap.min.js">
+    </script> <!--Animated headline js-->
+    <script src="./js/jquery.animatedheadline.js">
+    </script> <!--Magnific popup js-->
+    <script src="./js/jquery.magnific-popup.js">
+    </script> 
+    <script src="./js/custom.js">
+    </script> <!--Validator js-->
+    <script src="./js/jquery.waypoints.js">
+    </script> <!--Counter up js-->
+    <script src="./js/jquery.counterup.min.js">
+    </script> <!--imagesloaded js-->
+    <!-- <script src="./js/imagesloaded.min.js"></script> -->
+     <!--isotope js-->
+    <script src="./js/isotope.pkgd.min.js">
+    </script> <!--Owl Carousel js-->
+    <script src="./js/owl.carousel.js">
+    </script> <!--Validator js-->
+    <!-- <script src="./js/validator.js"></script> -->
+     <!--Contact js-->
+    <!-- <script src="./js/contact.js"></script> -->
+     <!--particles js-->
+    <script src="./js/particles.js">
+    </script> 
+    <script src="./js/app.js">
+    </script> <!--Main js-->
+    <script src="./js/main.js">
+    </script>
+</body>
+</html>
