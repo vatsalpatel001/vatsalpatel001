@@ -7,11 +7,11 @@
 - I keep myself busy learning new things.
 - I have vast experience building web educational activities and simulations.
 - Skills
-        JavaScript, jQuery
-        Angular
-        CSS3, SCSS, Bootstrap
-        PHP, MySQL
-        A-Frame, three.js
+        JavaScript, jQuery,
+        Angular,
+        CSS3, SCSS, Bootstrap,
+        PHP, MySQL,
+        A-Frame, three.js,
         WordPress, SEO
        
 - I have already completed over 10 projects for my clients.
