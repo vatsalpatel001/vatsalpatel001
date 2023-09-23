@@ -20,6 +20,19 @@ If you're interested in working together to create innovative solutions that red
 
 I've successfully completed over 10 projects for my clients, and I'm always excited to take on new challenges. Stay tuned for updates on my latest endeavors.
 
+## Learning
+
+In my journey as a developer, I'm continually expanding my skills and knowledge. Here are some of the learning repositories where I explore and experiment with different technologies:
+
+| Repository           | Description                                           |
+|----------------------|-------------------------------------------------------|
+| [pythonLearning](https://vatsalpatel001.github.io/pythonLearning/) | My Python Learning Projects |
+| [javascriptlearning](https://vatsalpatel001.github.io/JavascriptLearning.github.io/) | JavaScript Learning Journey |
+| [AngualarLeaning](https://vatsalpatel001.github.io/AngualarLeaning.github.io/) | My Angualar Leaning |
+| [KafkaLearning](https://vatsalpatel001.github.io/KafkaLearning/) | Learning Kafka and Stream Processing |
+
+Feel free to explore these repositories to see my progress and the projects I've been working on during my learning journey.
+
 ## Get in Touch
 
 📧 You can reach me at [vatsalpatel001@gmail.com](vatsalpatel001@gmail.com)
